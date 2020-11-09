@@ -18,7 +18,9 @@ html, body {
   text-align: center;
   height: 100vh;
   align-items: center;
-  background-color: #1A1A1D;
+  /* background-color: #1A1A1D; */
+  background-image: url(../../background-image/nature_mountain_eagle_fog.jpg);
+  background-size: cover;
 }
 
 .joinInnerContainer {
@@ -26,7 +28,7 @@ html, body {
 }
 
 .joinInput {
-  border-radius: 0;
+  border-radius: none;
   padding: 15px 20px;
   width: 100%;
 }

@@ -3,7 +3,9 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #1A1A1D;
+  /* background-color: rgb(51, 143, 180); */
+  background-image: url(../../background-image/nature_mountain_eagle_fog.jpg);
+  background-size: cover;
 }
 
 .container {

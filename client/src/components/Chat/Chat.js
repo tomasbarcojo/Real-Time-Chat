@@ -20,20 +20,26 @@ const Chat = ({ location }) => {
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
 
+
+
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
 
     socket = io(ENDPOINT);
 
     setRoom(room);
-    setName(name)
+    setName(name);
+
+    // function that makes Admin BOT send messages when user connects to a room
 
     socket.emit('join', { name, room }, (error) => {
       if(error) {
         alert(error);
       }
     });
-  }, [ENDPOINT, location.search]);
+  }, [location.search]);
+
+  //useEffect to handle menssages and people connected
   
   useEffect(() => {
     socket.on('message', message => {
@@ -44,6 +50,8 @@ const Chat = ({ location }) => {
       setUsers(users);
     });
 }, []);
+
+// function to send messages
 
   const sendMessage = (event) => {
     event.preventDefault();
