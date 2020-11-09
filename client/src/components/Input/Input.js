@@ -1,4 +1,5 @@
 import React from 'react';
+import SendIcon from '../../icons/send-button.svg'
 
 import './Input.css';
 
@@ -12,7 +13,7 @@ const Input = ({ setMessage, sendMessage, message }) => (
       onChange={({ target: { value } }) => setMessage(value)}
       onKeyPress={event => event.key === 'Enter' ? sendMessage(event) : null}
     />
-    <button className="sendButton" onClick={e => sendMessage(e)}>Send</button>
+    <button className="sendButton" onClick={e => sendMessage(e)}><img src={SendIcon} alt='send button'/></button>
   </form>
 )
 
