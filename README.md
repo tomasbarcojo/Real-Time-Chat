@@ -16,8 +16,6 @@ If you want to see the page for yourself, you'll need to do the following:
 
 - run npm i && npm start for both client and server side to start the development server
 
-Enjoy !
-
 # Previews
 
 ### Home page:
@@ -29,3 +27,5 @@ Enjoy !
 ![alt text](./Chat.PNG "Chat")
 
 ![alt text](./Chat2.PNG "Chat")
+
+Enjoy !
