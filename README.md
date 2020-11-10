@@ -19,3 +19,13 @@ If you want to see the page for yourself, you'll need to do the following:
 Enjoy !
 
 # Previews
+
+### Home page:
+
+![alt text](./Home.PNG "Home Page")
+
+### Chat:
+
+![alt text](./Chat.PNG "Chat")
+
+![alt text](./Chat2.PNG "Chat")
