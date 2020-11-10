@@ -1,6 +1,6 @@
 # Real Time Chat APP
 
-### Our stack of technologies:
+### Stack of technologies:
 
 - Front End:
     + HTML - CSS - Javascript
@@ -9,6 +9,9 @@
 - Back End:
     + Node.js
     + Express
+    
+- For make instant messaging chat:
+    + Socket.IO
 
 # How to start the project:
 
