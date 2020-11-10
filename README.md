@@ -16,8 +16,15 @@
 # How to start the project:
 
 If you want to see the page for yourself, you'll need to do the following:
+Install all the project dependencies for both client and server side with:
+```
+npm install
+```
 
-- run npm i && npm start for both client and server side to start the development server
+And start the development server for both client and server side with:
+```
+npm start
+```
 
 # Previews
 
